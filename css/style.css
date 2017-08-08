@@ -1,0 +1,43 @@
+/**
+ * Styles
+ * ------
+ * The primary stylesheet for the application
+ */
+
+* {
+	outline: none;
+}
+
+body {
+	background: #333;
+}
+
+/*-- Site Logo --*/
+.site-logo {
+	width: 200px;
+	margin-top: 30px;
+}
+.site-logo img {
+	width: 100%;
+}
+
+/*-- HTML Audio Player --*/
+audio {
+	width: 100%;
+	margin-top: 30px;	
+}
+
+/*-- JS Audio Player --*/
+#js-audio-player {
+	position: fixed;
+	bottom: 45px;
+	left: 45px;
+}
+button {
+	padding: 20px;
+	color: #222;
+	background: #999;
+}
+button.active {
+	color: red;
+}

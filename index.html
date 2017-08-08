@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Sandbox</title>
+	<meta name="description" content="Sandbox">
+	<meta name="author" content="Jim Kulakowski">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+	<![endif]-->
+	<!-- Import Bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- Import FontAwesome css -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Angular JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/style.css?v=1.0">
+
+	<!-- Custom Classes -->
+	<script src="build/classes/jsAudioPlayer.js" type="text/javascript"></script>
+
+</head>
+
+<!-- HTML -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 audio-player-container">
+			<!-- Site logo -->
+			<div class="site-logo">
+				<img src="img/sor_logo.png" />
+			</div>
+			<!-- Audio player -->
+			<audio>
+				<source src="audio/390951__gmcerveny__bass-2-feel.ogg" type="audio/ogg">
+				<source src="audio/390951__gmcerveny__bass-2-feel.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio>
+			<!-- Custom JS player -->
+			<div id="js-audio-player"></div>
+		</div><!-- .col -->
+	</div><!-- .row -->
+	<!-- Skype Chat Button -->
+	<div class="row">
+		<span class="skype-button bubble" data-contact-id=""></span>
+		<script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
+	</div><!-- .row -->
+</div><!-- .container -->
+
+<!-- END HTML -->
+
+
+<!-- Import jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<!-- Import Bootstrap Javascript -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<!-- Custom Javascript -->
+<script src="build/main.js" type="text/javascript"></script>
